@@ -1,12 +1,12 @@
 function info() {
-    console.log("INFO")
     const response = {
         apiversion: "1",
         author: "",
-        color: "#888888",
+        color: "#336699",
         head: "default",
         tail: "default"
     }
+    console.log("INFO", response)
     return response
 }
 
@@ -25,6 +25,8 @@ function move(gameState) {
         left: true,
         right: true
     }
+
+    console.log(gameState)
 
     // Step 0: Don't let your Battlesnake move back on its own neck
     const myHead = gameState.you.head
