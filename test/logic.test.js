@@ -4,7 +4,7 @@ function createGameState(myBattlesnake) {
     return {
         game: {
             id: "",
-            ruleset: { name: "", version: "" },
+            ruleset: { name: "My sneak", version: "" },
             timeout: 0
         },
         turn: 0,
